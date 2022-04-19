@@ -1,0 +1,44 @@
+body{
+    background-color: rgb(238, 238, 238);
+}
+
+.cajaflotante {
+    margin: 40px;
+    background-color: white;
+    border-style: solid;
+    border-color: #ebebeb;
+    border-radius: 5px;
+    border-top: solid 0px;
+
+}
+
+.cabecera{
+    padding: 10px;
+    border-bottom: solid 1px #eeeeee;
+}
+
+.contenido{
+    padding: 10px;
+    border-bottom: solid 1px #eeeeee;
+}
+
+.botones{
+    padding: 10px;
+}
+
+#botaceptar{
+    background-color: rgb(46, 189, 255);
+    color: white;
+    border: 0px;
+    border-radius: 2px;
+    padding: 5px;
+}
+
+#botcancelar{
+    background-color: rgb(134, 134, 134);
+    color: white;
+    border: 0px;
+    border-radius: 2px;
+    padding: 5px;
+}
+}

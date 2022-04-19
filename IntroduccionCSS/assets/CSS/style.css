@@ -1,0 +1,72 @@
+/*Asi se hace un comentario en CSS
+
+Selector por etiqueta es para modificar todas todo el conjunto de etiquetas que haya en ek documento 
+
+Para modificar ID usamos # 
+se modifican los identificadores uicos
+
+Para modificar clases usamos .
+se modifica todo lo que tenga el conjunto de clase
+*/
+
+body {
+    background-color: gray;
+}
+
+.salon {
+    color: violet;
+    font-size: 30px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+span {
+    color: coraln;
+}
+
+#adriana {
+    color: aqua;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* solid borde solido, doted punteado, double lineas dobles */
+.paq{
+    padding: 20px;
+    border: 5px solid aqua;
+    margin: 15px;
+    background-color: aqua;
+    text-align: center;
+    border-radius: 10px;
+    font-family: cursive;
+}
+
+#fb {
+    background-color: blue;
+    color: white;
+    font-size: 15px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin: 20px;
+    padding: 10px;
+    border-radius: 10px;
+}
+#ig {
+    background-color: rgb(255, 193, 231);
+    color: white;
+    font-size: 15px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin: 20px;
+    padding: 10px;
+    border-radius: 10px;
+}
+#tw {
+    background-color: rgb(40, 205, 255);
+    color: white;
+    font-size: 15px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin: 20px;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.sns {
+    align-items: center;
+}

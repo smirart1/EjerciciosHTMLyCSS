@@ -1,0 +1,53 @@
+body{
+    background-color: rgb(238, 238, 238);
+}
+
+.cajaflotante {
+    margin: 40px;
+    background-color: white;
+    border-style: solid;
+    border-color: #ebebeb;
+    border-radius: 10px;
+    border-top: solid 0px;
+
+}
+
+.cabecera{
+    padding: 10px;
+    border-bottom: solid 1px #eeeeee;
+    text-align: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: rgb(92, 89, 97);
+}
+
+.contenido{
+    padding: 10px;
+    border-bottom: solid 1px #eeeeee;
+}
+
+.botones{
+    padding: 10px;
+}
+
+#botaceptar{
+    background-color: rgb(46, 189, 255);
+    color: white;
+    border: 0px;
+    border-radius: 2px;
+    padding: 5px;
+}
+
+#botcancelar{
+    background-color: rgb(134, 134, 134);
+    color: white;
+    border: 0px;
+    border-radius: 2px;
+    padding: 5px;
+}
+
+#ImgTayHeader{
+    padding
+    border-radius: 15px;
+    border: solid 5px #f7c8f8af;
+    padding: 10px;
+}

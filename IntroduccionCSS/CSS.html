@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="/Introduccion CSS/assets/CSS/style.css">
+<!--Tercera forma de agregar CSS a nuestro documento: Externa
+
+Podemos agregar estilos CSS de forma externa, esto es, cargando un archivo CSS que se encuentre dentro de nuestros assets utilizando la etiqueta <link>. Se sugiere que los estilos se cargen al principio dentro de head. Este es el metodo más eficiente y sencillo de mantener, ya que el codigo CSS se encuentra separado del documento HTML, por lo que si se necesita modificar algun estilo, no compromese el código HTML.
+
+    rel: indica que el archivo vinculado es una hoja de estilo.
+    href: indica la direccion donde se encuentra el archivo.
+    type: indica el tipo de archivo, en HTML5 ya no es necesario utilizarlo.
+
+-->
+
+<!--segunda forma de agregar CSS a nuestros documentos: Dentro de la etiqueta Style-->
+<style> p {color: red; font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;} </style>
+</head>
+<body>
+
+    <h1>Aprendiendo estilos con CSS</h1>
+<!--Primera forma de agregar CSS a nuestro documento: Interna 
+No recomendada, es mejor con la segunda forma, dentro de head, con la etiqueta style-->
+    <p style="color: rgb(81, 255, 0); font-family: 'Trebuchet MS';">Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur voluptates veritatis veniam necessitatibus aliquam, sit minima similique. Adipisci cum, accusamus excepturi illo incidunt distinctio provident eveniet. Culpa labore quas quo!</p>
+
+    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eius, esse inventore voluptatum odio <span>quam quia tempore</span> aliquam quaerat ratione voluptas commodi ut nihil numquam officia non voluptatem animi alias nostrum.</p>
+
+    <h3 class="salon">Salon de Clases</h3>
+    <span id="adriana">Adriana</span>
+    <br>
+    <span id="mar">Mar</span>
+    <br>
+    <span id="sandra">Sandra</span>
+    <br>
+    <span id="ana">Ana</span>
+<br>
+<br>
+<br>
+    <div class="paq">Hola soy un div, usame para aprender el modelo de cajas</div>
+<br>
+<br>
+<br>
+    <div id="sns">
+    <button id="fb">Facebook</button>
+    <button id="ig">Instagram</button>
+    <button id="tw">Twitter</button>
+    </div>
+</body>
+</html>
