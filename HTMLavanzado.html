@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML Avanzado</title>
+    <link rel="stylesheet" href="/EjerciciosHTMLyCSS/HTMLavanzado.css">
+</head>
+<body>
+    
+<!--Formulario
+Nos sirve para recopilar información de los usuarios
+
+Atributos importantes:
+    -action: es donde se va a enviar la informacion
+    -method: es el metodo de envio de la informacion
+
+    *cuando trabajamos con botones dentro del formulario, debemos usar  input del tipo boton, si trabajamos botones fuera de el, usamos button
+
+    Placeholder: texto que se muestra antes de que el usuario ingresa los datos
+
+    Value: asigna valor a checkbox y radio
+
+    Required: Campos obligatorios
+
+    Action: Ruta o link a donde va a mandar
+-->
+
+<fieldset>
+    <legend id="legend" align="center">Formulario de contacto</legend>
+    <form action="/EjerciciosHTMLyCSS/Datos.html">
+        <label>Este es un boton simple</label>
+        <input type="button"> <!--Boton-->
+        <br>
+        <label>Checkbox</label>
+        <input type="checkbox"> <!--Checkbox-->
+        <br>
+        <label>Selecciona una fecha</label>
+        <input type="date"> <!--Fecha-->
+        <br>
+        <label>Email</label>
+        <input type="email"> <!--email-->
+        <br>
+        <label>Escribe algo</label>
+        <input type="text"> <!--Texto simple-->
+        <br>
+        <label>Contraseña</label>
+        <input type="password"> <!--Contraseña-->
+        <br>
+        <label>Escribe un numero</label>
+        <input type="number"> <!--Numero-->
+        <br>
+        <label>Carga un archivo</label>
+        <input type="file"> <!--Para enviar archivos-->
+        <br>
+        <label>Selecciona un radio</label>
+        <input type="radio"> <!--radio-->
+        <input type="radio"> <!--radio-->
+        <br>
+        <label>Selecciona un rango</label>
+        <input type="range"> <!--rango-->
+        <br>
+        <label>Telefono</label>
+        <input type="tel" placeholder="👤📞✉" required> <!--telefono-->
+        <br>
+        <label>Tiempo</label>
+        <input type="time"> <!--tiempo-->
+        <br>
+        <input type="reset"> <!--Reseteo-->
+        <br>
+        <textarea cols="30" rows="10" placeholder="Agrega tus comentarios, dudas o sugerencias"></textarea>
+        <input type="submit"> <!--Envio-->
+        <br>
+        <br>
+        <label">Tortas</label>
+        <input type="checkbox" value="tortas">
+        <br>
+        <label">Tacos</label>
+        <input type="checkbox" value="tacos">
+        <br>
+        <label">Enchiladas</label>
+        <input type="checkbox" value="enchiladas">
+</form>
+</fieldset>
+
+</body>
+</html>

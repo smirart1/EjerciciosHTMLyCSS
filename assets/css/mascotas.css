@@ -1,6 +1,9 @@
 body{background-color: white;
 text-align: center;
-align-content: center;}
+align-content: center;
+font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
 
 
 .cajaflotante {
@@ -9,7 +12,7 @@ align-content: center;}
     border-style: solid;
     border-color: #ebebeb;
     border-radius: 10px;
-    font-size: large;
+    font-size: px;
    
 }
 
@@ -20,7 +23,6 @@ align-content: center;}
     border-color: #ebebeb;
     border-radius: 10px;
     border-top: solid 0px;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     padding: 1px;
     color: white;
 }
@@ -28,35 +30,30 @@ align-content: center;}
 
 
 #bebe{
+    border: solid #64bcff;
     border-radius: 10px;
     margin-top: 15px; margin-right: 5px; margin-bottom: 10px; margin-left: 5px;
 }
 
 #tay1{
+    border: double rgb(35, 105, 255);
     border-radius: 10px;
     margin-top: 15px; margin-right: 5px; margin-bottom: 10px; margin-left: 5px;
 }
 
 #tay2{
+    border: solid #64bcff;
     border-radius: 10px;
     margin-top: 15px; margin-right: 5px; margin-bottom: 10px; margin-left: 5px;
 }
 /* From uiverse.io by @ke1221 */
 button {
- border: none;
- color: #090909;
- padding: 0.7em 1.7em;
- font-size: 18px;
- border-radius: 0.5em;
- background: #e8e8e8;
- border: 1px solid #e8e8e8;
- transition: all .3s;
- box-shadow: 6px 6px 12px #c5c5c5,
-             -6px -6px 12px #ffffff;
+    padding: 10px;
+    background-color: #64bcff;
+    color: white;
+    border: 0px;
+    border-radius: 8px;
+    font-size: 15px;
 }
 
-button:active {
- color: #666;
- box-shadow: inset 4px 4px 12px #c5c5c5,
-             inset -4px -4px 12px #ffffff;
-}
+
