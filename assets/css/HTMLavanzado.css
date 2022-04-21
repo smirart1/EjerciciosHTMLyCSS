@@ -1,0 +1,21 @@
+
+
+#pagina{
+    width: 700px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    border: 3px solid black;
+    color: black;
+    font-weight: bold;
+    padding: 10px;
+}
+
+td {
+    text-align: center;
+    border: 3px solid black;
+    padding: 34px;
+}
+
+#encabezado{
+    font-size: 35px;
+    color: blue;
+}

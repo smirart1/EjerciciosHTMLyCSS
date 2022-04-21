@@ -5,10 +5,15 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>HTML Avanzado</title>
-    <link rel="stylesheet" href="/EjerciciosHTMLyCSS/HTMLavanzado.css">
+    <link rel="stylesheet" href="/EjerciciosHTMLyCSS/assets/css/HTMLavanzado.css"
 </head>
 <body>
-    
+<h1 id="menu">Menu</h1>
+<a href="#formularios"><button>Formularios</button></a>
+<a href="#maquetado"><button>Maquetado</button></a>
+<a href="#ejercicio1"><button>Ejercicio</button></a>
+<a href="#periodico"><button>Periodico</button></a>
+
 <!--Formulario
 Nos sirve para recopilar información de los usuarios
 
@@ -26,7 +31,8 @@ Atributos importantes:
 
     Action: Ruta o link a donde va a mandar
 -->
-
+<div> <!--Formularios-->
+    <h1 id="formularios">Formularios</h1> 
 <fieldset>
     <legend id="legend" align="center">Formulario de contacto</legend>
     <form action="/EjerciciosHTMLyCSS/Datos.html">
@@ -83,6 +89,119 @@ Atributos importantes:
         <input type="checkbox" value="enchiladas">
 </form>
 </fieldset>
+<a href="#menu"><button>Inicio</button></a>
+</div>
+<div> <!--maquetado de pagina web-->
+<h1 id="maquetado">Maquetado de pagina web con una tabla</h1>
+<table border="2" align="center" width="100%" id="pagina">
+    <tr>
+        <td colspan="2">NAVBAR</td>
+    </tr>
+    <tr>
+        <td rowspan="2">Texto</td>
+        <td align>Imagen1</td>
+    </tr>
+    <tr>
+        <td align>Imagen2</td>
+    </tr>
+    <tr>
+        <td colspan="2">Footer</td>
+    </tr>
+</table> 
+<a href="#menu"><button>Inicio</button></a>   
+</div>
+<div> <!--Ejercicio1-->
+<h1 id="ejercicio1">Ejercicio</h1>
+<table border="2" align="center" width="100%" id="pagina">
+    <tr>
+        <td colspan="5">Barra de Navecacion</td>
+    </tr>
+
+    <tr>
+        <td rowspan="3" colspan="2">Texto1</td>
+        <td colspan="1" rowspan="3">Texto2</td>
+        <td colspan="2">Texto3</td>
+    </tr>
+
+    <tr>
+       
+        <td colspan="2">Texto4</td>
+    </tr>
+
+    <tr>
+        <td colspan="2">Texto5</td>
+    </tr>
+
+    <tr>
+        <td colspan="1">Imagen1</td>
+        <td colspan="1">Imagen2</td>
+        <td colspan="1">Imagen3</td>
+        <td colspan="1">Imagen4</td>
+        <td colspan="1">Imagen5</td>
+    </tr>
+
+    <tr>
+        <td colspan="2">Footer1</td>
+        <td colspan="3">Footer2</td>
+    </tr>    
+   
+</table> 
+<a href="#menu"><button>Inicio</button></a>
+</div>   
+<div> <!--Periodico-->
+    <h1 id="periodico">Periodico</h1>
+    <table border="2" align="center" width="100%" id="pagina">
+        <tr>
+            <td colspan="5" id="encabezado">El Universal</td>
+        </tr>
+    
+        <tr>
+            <td rowspan="1" colspan="4">Texto1</td>
+            <td colspan="1" rowspan="1">Img2</td>
+        </tr>
+    
+        <tr>
+           
+            <td colspan="4" rowspan="4">AMLOimg</td>
+            <td>TextoImg2</td>
+            
+        </tr>
+    
+        <tr>
+            <td>Img3</td>
+        </tr>
+    
+        <tr>
+           <td>TexImg3</td>
+        </tr>
+    
+        <tr>
+            <td>Img4</td>
+        </tr>  
+        
+        <tr>
+            <td colspan="2" rowspan="4">Texto2</td>
+            <td colspan="2" rowspan="4">Texto3</td>
+        </tr>
+       
+        <tr>
+           
+            <td>TextoImg4</td>
+        </tr>
+        <tr>
+           
+            <td>Img5</td>
+        </tr>
+        <tr>
+           
+            <td>TextoImg5</td>
+        </tr>
+
+        
+        
+    </table>
+    <a href="#menu"><button>Inicio</button></a> 
+</div>   
 
 </body>
 </html>

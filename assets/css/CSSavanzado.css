@@ -1,0 +1,71 @@
+body{
+    background-color: white;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: center;
+    
+}
+
+/*.grid {
+    display: inline-grid; Esto es para que se vea como una cuadricula, con el tamaño total de la pantalla, definido por nosotros
+    display: grid; Esto es para que se vea como una cuadricula, con el tamaño total de la pantalla
+    width: 100%;
+    grid-template-columns: repeat(6,100px);
+    grid-template-rows: repeat(4,100px);
+    grid-gap: 20px;
+} */
+
+.grid {
+    color: rgb(58, 58, 58);
+    width: 90%;
+    display: grid;
+    grid-template-areas:"header"
+                        "content sidebar"
+                        "footer";
+    grid-template-columns: repeat(6,1fr);
+    grid-template-rows: repeat(4,1fr);
+    grid-gap: 10PX;
+    
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.header {
+    margin-top: 40px;
+    background-color: #ffdf53;
+    grid-column-start: 1;
+    grid-column-end: 7;
+    padding: 15px;
+    border-radius: 13px;
+}
+.content {
+    background-color: #4193F0;
+    grid-column-start: 1;
+    grid-column-end: 5;
+    border-radius: 13px;
+    padding: 15px;
+}
+
+.sidebar {
+    background-color: #ff6647;
+    grid-column-start: 5;
+    grid-column-end: 7;
+    grid-row-start: 2;
+    grid-row-end: 4;
+    padding: 15px;
+    border-radius: 13px;
+}
+
+.img {
+    background-color: #bf82ff;
+    padding: 15px;
+    border-radius: 13px;
+}
+
+.footer {
+    background-color: #34F74C;
+    grid-column-start: 1;
+    grid-column-end: 7;
+    padding: 15px;
+    border-radius: 13px;
+}
+
