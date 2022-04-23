@@ -1,0 +1,51 @@
+main{
+    display: grid;
+    margin: auto;
+    width: 90%;
+    grid-gap: 15px;
+    grid-template-columns: repeat(3,3fr);
+    grid-template-rows: 100px 1fr 100px;
+}
+
+header{
+    text-align: center;
+    margin-top: 20px;
+    grid-column: 1/4;
+    border-radius: 15px;
+    padding: 12px;
+    background-color: #004CF8;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 35px;
+    font-weight: bold;
+    color: white;
+}
+
+.img {
+    grid-column: 1/2;
+    grid-row: 2/4;
+    background-color: aquamarine;
+    border-radius: 15px;
+    
+}
+
+.info{
+    display: flex;
+    align-items: center;
+    background-color: #118eee;
+    grid-column: 2/4;
+    border-radius: 15px;
+    color: rgb(54, 52, 52);
+    font-size: 24px;
+    padding: 20px;
+}
+
+footer{
+    text-align: center;
+    grid-column: 1/4;
+    grid-row: 3/4;
+    border-radius: 15px;
+}
+
+#tay {
+    border-radius: 15px;
+}
